@@ -1,7 +1,7 @@
 #!/bin/bash
 set -eou pipefail
 
-docker pull docker:stable
+docker pull debian:stretch
 
 IMAGE="place1/dotnetcore-2-and-3:$(date +%Y.%m.%d)"
 
